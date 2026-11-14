@@ -1,0 +1,27 @@
+# Build output
+dist/
+*.exe
+*.pdb
+*.obj
+
+# Local payload / test assets (never commit images)
+payload/p1/
+payload/clone/
+payload/tools/
+payload/manifest.md5
+
+# Images and backups
+*.iso
+*.uimg
+*.img
+
+# IDE / editor
+.vs/
+.idea/
+*.user
+*.suo
+
+# Scratch
+*.log
+*.tmp
+out/
